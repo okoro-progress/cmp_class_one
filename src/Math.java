@@ -1,14 +1,16 @@
 public class Math {
 
-    float multiply (int numberOne, int numberTwo){
+    float multiply (float numberOne, float numberTwo){
         return  numberOne * numberTwo;
     }
 
-    float divide (int numberOne, int numberTwo){
+    float divide (float numberOne, float numberTwo){
         return  numberOne / numberTwo;
     }
 
-    float powTwo (int number){
+    float powTwo (float number){
         return  number  * number;
     }
+
+    float pi = 22/7f;
 }
